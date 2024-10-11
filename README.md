@@ -6,6 +6,6 @@ To execute, cd into the src folder and execute cargo build. After this, you eith
 
 Expected results:
 test case 1 passes.
-test case 2 fails as the string is longer than 16 bytes.
-test case 2 fails as the string is shorter than 16 bytes.
+test case 2 passes as the string is longer than 16 bytes, and PKCS7 padding is used to make it a valid length
+test case 2 passes as the string is shorter than 16 bytes, and PKCS7 padding is used to make it a valid length
 
