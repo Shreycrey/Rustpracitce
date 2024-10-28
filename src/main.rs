@@ -11,6 +11,8 @@ fn pad_pkcs7(data: &[u8], block_size: usize) -> Vec<u8> {
     padded
 }
 
+// 10/28: Research on bit packing brought more awareness to the nature of padding. Minor updates will follow. 
+
 // PKCS7 remove padding
 fn unpad_pkcs7(data: &[u8]) -> Vec<u8> {
     if data.is_empty() {
