@@ -10,3 +10,5 @@ test case 2 passes as the string is longer than 16 bytes, and PKCS7 padding is u
 test case 2 passes as the string is shorter than 16 bytes, and PKCS7 padding is used to make it a valid length
 
 The implementation is padding and block alignment, bit padding is not viable enough to be used yet, but research is being done to find the best way to use it for storage efficiency.
+
+***Additional Test Case file in progress***
